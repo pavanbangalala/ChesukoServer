@@ -14,7 +14,7 @@ mongoose
   )
   .then((response) => {
     console.log("connection to db succesful");
-    app.listen("8000", () => {
+    app.listen("0.0.0.0", () => {
       console.log("listening to port 8000");
     });
   })
